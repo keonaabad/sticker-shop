@@ -1,0 +1,96 @@
+    <div class="cover-title">Panboo Creations</div>
+    <nav class="navigation-wrapper">
+        <div class="navigation-bar-text">
+            <a>Search</a>
+            <a>Cart</a>
+            <a>About Us</a>
+        </div>
+    </nav>
+    <div class="nav-seperation-line"></div>
+
+
+
+    <div class="cover-photo"></div>
+    <div class="sticker-title">Sticker Collection</div>
+
+
+    <div class="sticker-selection-wrapper">
+        <div class="sticker-box"></div>
+        <div class="sticker-box"></div>
+        <div class="sticker-box"></div>
+        <div class="sticker-box"></div>
+        <div class="sticker-box"></div>
+    </div>
+
+
+
+
+.navigation-wrapper{
+    position: fixed;
+    right: 2%;
+    top: 3%
+}
+.navigation-bar-text a{
+    color: black;
+    font-size: 16px;
+}
+
+.navigation-bar-text a:hover{
+    cursor: pointer;
+}
+
+.navigation-bar-text{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+
+.cover-title{
+    position: fixed;
+    color: black;
+    font-size: 26px;
+    top: 2%;
+    left: 2%
+}
+
+.nav-seperation-line {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 1px;
+  border: none;
+  top: 8%;
+
+}
+
+.cover-photo{
+    position: relative;
+    width: 95%;
+    height: 550px;
+    background: grey;
+    margin: 7% auto
+
+}
+
+.sticker-title{
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    margin-top: -50px
+}
+
+
+
+.sticker-selection-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+    margin: 2% 10%;
+
+}
+.sticker-box{
+    background: red;
+    width: 450px;
+    height: 310px;
+}

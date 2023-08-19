@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Arial", sans-serif;
+    color: #E8E8E8;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    zoom: 1;
+}
+
+
+/*Top of Page*/
+/*Navigation Bar*/
+
+
+.top-page-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 200;
+}
+
+
+
+.navigation{
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    gap: 75px;
+    justify-content: flex-end;
+    right: 3%;
+    margin-top: 22px
+}
+
+.navigation a{
+    color: black;
+    font-size: 20px
+}
+
+.navigation a:hover{
+    cursor: pointer;
+}
+
+.sticker-collection-title{
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    color:black;
+    font-size: 32px;
+    font-family: Permanent
+}
+
+/*Website Title*/
+.website-title{
+    position: absolute;
+    margin-top: 10px;
+    left: 3%;
+    color: black;
+    font-size: 36px;
+    font-family: 'Permanent';
+    font-weight: 200;
+
+}
+
+/*Divider Line*/
+.top-page-line{
+    position: absolute;
+    height: 1.4px;
+    width: 100%;
+    background-color: black;
+    top: 70px
+}
+/*End of Top of Page*/
+
+
+
+
+/*Cover Photo*/
+.cover-photo-wrapper{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cover-photo{
+    position: absolute;
+    background: grey;
+    width: 95%;
+    height: 550px;
+    top: 110px    
+}
+
+.cover-photo[style*="cover-photo"]{
+    background-position: center;
+    background-size: 900px;
+}
+/*End of Cover Photo*/
+
+/*Sticker Section*/
+.sticker-wrapper{
+    position: relative;
+    top: 780px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding-bottom: 280px;
+}
+
+
+.sticker-container-1{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+
+}
+
+
+
+
+
+.sticker-image{
+    width: 250px;
+    height: 250px;
+    background: red;
+    border: 10px solid rgb(245, 244, 244);
+    border-radius: 30px;
+    transition: transform .7s ease, border-color 1s ease;
+    
+}
+
+.sticker-image:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 10px solid rgb(170, 170, 170);
+}
+
+.price{
+    color: black;
+    font-size: 23px;
+    margin-top: 265px;
+}
+
+.description{
+    color: rgb(90, 87, 87);
+    font-size: 18px
+}
+
+.sticker-image[style*="groot"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="spiderman"]{
+    background-position: center;
+    background-size: 340px;
+}
+.sticker-image[style*="iron-man"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="thor"]{
+    background-position: center;
+    background-size: 380px;
+}
+
+.sticker-image[style*="goodvibes"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="plant"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="puny"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="smores"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="dino"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="smiley"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="starry"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="succulent"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="christmas"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="fall"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="winter"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="summer"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="spooky"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="valentines"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="thanksgiving"]{
+    background-position: center;
+    background-size: 380px;
+}
+.sticker-image[style*="captain-america"]{
+    background-position: center;
+    background-size: 380px;
+}
