@@ -1,0 +1,255 @@
+/*Top of Page*/
+/*Navigation Bar*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Arial", sans-serif;
+    color: #E8E8E8;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    zoom: 1;
+}
+
+.top-page-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.navigation{
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    gap: 75px;
+    justify-content: flex-end;
+    right: 3%;
+    margin-top: 22px
+}
+
+.navigation a{
+    color: black;
+    font-size: 20px
+}
+
+.navigation a:hover{
+    cursor: pointer;
+}
+
+/*Website Title*/
+.website-title{
+    position: absolute;
+    margin-top: 10px;
+    left: 3%;
+    color: black;
+    font-size: 36px;
+    font-family: 'Permanent';
+    font-weight: 200;
+
+}
+
+/*Divider Line*/
+.top-page-line{
+    position: absolute;
+    height: 1.4px;
+    width: 100%;
+    background-color: black;
+    top: 70px
+}
+
+.photo-slide-wrapper{
+    position: relative;
+}
+
+.photo-slide-container{
+    position:absolute;
+    margin-left: 145px
+}
+
+
+.slide-1, .slide-2, .slide-3, .slide-4, .slide-5{
+    position:absolute;
+    top: 125px;
+    left: 10%;
+    width: 800px;
+    height: 500px;
+    background-color: grey;
+    border-radius: 25px;
+}
+
+
+.left-arrow,
+.right-arrow{
+    position: absolute;
+    font-size: 50px;
+    border: white solid;
+    padding: 10px;
+    border-radius: 1000px;
+    background-color: rgba(0, 0, 0, 0.193);
+    margin-top: 330px
+
+    
+}
+
+.right-arrow{
+    left: 705px
+}
+
+.left-arrow{
+    left: 35px
+}
+
+.left-arrow:hover,
+.right-arrow:hover{ 
+    background-color: rgba(83, 81, 81, 0.193);
+    cursor: pointer;
+
+}
+
+
+.slide-1[style*="spiderman-1.jpg"] {
+    background-position: center;
+    background-size: 900px;
+}
+
+.slide-2[style*="spiderman-2.jpg"] {
+    background-position: center;
+    background-size: 900px;
+}
+.slide-3[style*="spiderman-3.jpg"] {
+    background-position: center;
+    background-size: 900px;
+}
+.slide-4[style*="spiderman-4.jpg"] {
+    background-position: center;
+    background-size: 900px;
+}
+.slide-5[style*="spiderman-5"] {
+    background-position: center;
+    background-size: 900px;
+}
+
+
+
+.sticker-text-wrapper{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    width: 100%;
+    left: 70%;
+    top:130px
+}
+
+
+.price{
+    color:black;
+    font-size: 30px
+}
+
+.sticker-description{
+    color:rgb(104, 104, 104);
+    font-size: 18px;
+    width: 25%
+}
+
+
+.shipping-text{
+    color:rgb(96, 96, 96);
+    margin-bottom: -10px;
+    margin-top: 22px;
+    font-size: 16px
+    
+}
+
+
+.return-text{
+    color:rgb(96, 96, 96);
+    font-size: 16px
+}
+
+
+
+.quantity-selector-wrapper{
+    position: absolute;
+    top:0;
+    margin:0;
+    width:100%;
+    display: flex;
+}
+.quantity-box{
+    width: 350px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 2px rgb(186, 185, 185) solid ;
+    margin-top: 265px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.quantity-text{
+    position: absolute;
+    color: black;
+    font-weight: 1px;
+    font-size: 28px
+}
+
+
+.add-cart-wrapper{
+    position: absolute;
+    top:0;
+    margin:0;
+    width:100%;
+    display: flex;
+}
+.add-cart-box{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border: 2px rgb(186, 185, 185) solid ;
+    margin-top: 345px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.add-cart-box:hover{
+    cursor: pointer;
+}
+
+.add-cart-text{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: 1px
+}
+
+.plus-text{
+    position: absolute;
+    color: black;
+    margin-left: 250px;
+    font-size: 28px;
+    z-index: 2; 
+}
+
+.minus-text{
+    position: absolute;
+    color: black;
+    margin-left: -250px;
+    font-size: 38px;
+    z-index: 2; 
+    
+}
+
+
+.minus-text:hover,
+.plus-text:hover{
+    cursor: pointer;
+}
+
